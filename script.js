@@ -33,7 +33,10 @@ function setTheme() {
     document.getElementById("footer").classList.contains("dark")
     ? document.getElementById("footer").classList.remove("dark")
     : document.getElementById("footer").classList.add("dark");
-
+  
+    document.getElementById("hamburger-nav").classList.contains("dark")
+    ? document.getElementById("hamburger-nav").classList.remove("dark")
+    : document.getElementById("hamburger-nav").classList.add("dark");
   switch (theme) {
     case "dark":
       setLight();
