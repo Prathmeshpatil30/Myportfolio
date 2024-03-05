@@ -9,10 +9,12 @@ function toggleMenu() {
 // mode button code
 document.body.style = "background-color: var(--bs-dark);transition: 0.5s;";
 const sun =
-  "https://www.uplooder.net/img/image/55/7aa9993fc291bc170abea048589896cf/sun.svg";
+  "https://img.icons8.com/ios/50/FFFFFF/sun--v1.png"; //https://img.icons8.com/ios/50/sun--v1.png
+  
 const moon =
-  "https://www.uplooder.net/img/image/2/addf703a24a12d030968858e0879b11e/moon.svg";
-
+  // "https://www.uplooder.net/img/image/2/addf703a24a12d030968858e0879b11e/moon.svg";
+  "https://img.icons8.com/sf-regular/48/moon-symbol.png";
+ 
 var theme = "dark";
 const root = document.querySelector(":root");
 const container = document.getElementsByClassName("theme-container")[0];
@@ -59,7 +61,7 @@ function setLight() {
     themeIcon.classList.remove("change");
   }, 300);
   themeIcon.classList.add("change");
-  themeIcon.src = sun;
+  themeIcon.src = moon;
 }
 function setDark() {
   root.style.setProperty("--bs-dark", "#212529");
@@ -69,5 +71,5 @@ function setDark() {
     themeIcon.classList.remove("change");
   }, 300);
   themeIcon.classList.add("change");
-  themeIcon.src = moon;
+  themeIcon.src = sun;
 }

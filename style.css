@@ -453,7 +453,7 @@ footer {
   section.dark .btn-color-2:not(.project-btn){
     color: darkgrey;
   }
-
+ 
   
   .theme-container {
     width: 70px;
@@ -502,3 +502,6 @@ footer {
     animation-duration: 1s;
     animation-direction: alternate;
   }
+   
+  
+  
